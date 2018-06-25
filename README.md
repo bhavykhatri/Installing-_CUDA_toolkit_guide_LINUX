@@ -7,6 +7,7 @@ The following guide followed this link: https://docs.nvidia.com/cuda/cuda-quick-
 
 It is suggested to follow debian installer instead of runtime installer.
 
+
 Commands followed:
 
 1. ```
@@ -110,7 +111,10 @@ Other actions are recommended to verify the integrity of the installation.
 	```
 	./nbody
 	```
-
+	Your terminal will look something like this:
+	![alt text](cuda1.png)
+	A new window will pop up having contents similar to the figure below one:
+	![alt text](cuda2.png)
 2.  Verify the Installation
 	
 	*Verify the Driver Version*: If you installed the driver, verify that the correct version of it is loaded. When the driver is loaded, the driver version can be found by executing the command
@@ -118,3 +122,5 @@ Other actions are recommended to verify the integrity of the installation.
 	```
 	cat /proc/driver/nvidia/version
 	```
+3. 	The version of the CUDA Toolkit can be checked by running ```nvcc -V``` in a terminal
+window
