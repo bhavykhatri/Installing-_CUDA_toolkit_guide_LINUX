@@ -122,5 +122,11 @@ Other actions are recommended to verify the integrity of the installation.
 	```
 	cat /proc/driver/nvidia/version
 	```
+	
 3. 	The version of the CUDA Toolkit can be checked by running ```nvcc -V``` in a terminal
-window
+window. The output will look something like this:
+	![alt text](cuda4.png)
+
+4. The ```nvidia-smi``` shows your driver version and how much GPU memory you have
+	![alt text](cuda3.png)
+
